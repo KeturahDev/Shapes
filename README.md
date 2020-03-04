@@ -14,6 +14,7 @@ This project is being created with the intention of practing object-in-object fu
 | Specification | Example Input | Example Output |
 | :------------- |:-------------| :-------------------|
 | Create a circle object | create instance of circle | *circle exists* |
+| object holds radius | create instance of circle | *circle with radius exists* |
 | Create functionality to find circumfrance | (circumfrance method) | *finds circumfrance* |
 | Create functionality to find diameter | (diameter method) | *finds diameter* |
 | Create sphere object based off circle object | create instance of sphere | *sphere exists* |

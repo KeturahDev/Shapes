@@ -16,16 +16,16 @@ namespace Shapes.Tests
       // Assert
       Assert.AreEqual(result.GetType(), typeof(Circle));
     }
-    // [TestMethod]
-    // public void ConstructCircle_CircleInstanceHoldsRadius_intRadius()
-    // {
-    //   int radius = 3;
-    //   Circle newCircle = new Circle(radius);
+    [TestMethod]
+    public void ConstructCircle_CircleInstanceHoldsRadius_intRadius()
+    {
+      int radius = 3;
+      Circle newCircle = new Circle(radius);
 
-    //   int result = newCircle.Radius;
+      int result = newCircle.Radius;
 
-    //   Assert.AreEqual(result, radius);
-    // }
+      Assert.AreEqual(result, radius);
+    }
     // [TestMethod]
     // public void FindCircumfrance_ResturnCircomfranceOfCircle_CircumfranceInt()
     // {
