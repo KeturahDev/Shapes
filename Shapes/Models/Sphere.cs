@@ -21,7 +21,13 @@ namespace Shapes.Models
     }
     public double FindVolume()
     {
-      return 0;
+      int radiusCubed = Radius * Radius * Radius;
+      // double times4Over3 = radiusCubed * 1.33;
+      int times4 = radiusCubed * 4;
+      double timespi = times4 * 3.1415;
+      double dividedBy3 = timespi / 3;
+      double volume = Math.Round(dividedBy3, 1);
+      return volume;
     }
   }
 }
