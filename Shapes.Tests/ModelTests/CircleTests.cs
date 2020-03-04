@@ -46,7 +46,6 @@ namespace Shapes.Tests
       int radius = 3;
       Circle newCircle = new Circle(radius);
       newCircle.SetDiameter();
-
       // act
       double result = newCircle.GetCircumference();
       // assert
