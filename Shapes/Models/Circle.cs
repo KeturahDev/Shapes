@@ -2,6 +2,10 @@ namespace Shapes.Models
 {
   public class Circle
   {
-    // code
+    public int Radius {get;}
+    public Circle(int radius)
+    {
+      Radius = radius;
+    }
   }
 }

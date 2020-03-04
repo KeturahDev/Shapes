@@ -10,7 +10,7 @@ namespace Shapes.Tests
     public void ConstructCircle_CreateNewInstanceOfCircle_CircleType()
     {
       // Arrange
-      Circle newCircle = new Circle();
+      Circle newCircle = new Circle(2);
       // Act
       Circle result = newCircle;
       // Assert
