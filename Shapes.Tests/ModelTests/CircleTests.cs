@@ -26,11 +26,18 @@ namespace Shapes.Tests
 
       Assert.AreEqual(result, radius);
     }
-    // [TestMethod]
-    // public void FindCircumfrance_ResturnCircomfranceOfCircle_CircumfranceInt()
-    // {
-    //   int radius = 3;
-    //   Circle newCircle = new Circle(radius);
-    // }
+    [TestMethod]
+    public void FindCircumfrance_ResturnCircumferenceOfCircle_CircumfranceInt()
+    {
+      // arrange
+      int radius = 3;
+      Circle newCircle = new Circle(radius);
+      // act
+      int result = newCircle.GetCircumference();
+      // assert
+      Assert.AreEqual(result, 6);
+
+
+    }
   }
 }

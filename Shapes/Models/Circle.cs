@@ -7,5 +7,9 @@ namespace Shapes.Models
     {
       Radius = radius;
     }
+    public int GetCircumference()
+    {
+      return 0;
+    }
   }
 }
