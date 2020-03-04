@@ -13,9 +13,9 @@ namespace Shapes.Models
     {
       Diameter = Radius * 2;
     }
-    // public int GetCircumference()
-    // {
-    //   return 0;
-    // }
+    public int GetCircumference()
+    {
+      return 0;
+    }
   }
 }

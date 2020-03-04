@@ -39,16 +39,16 @@ namespace Shapes.Tests
       // assert
       Assert.AreEqual(result, 6);
     }
-    // [TestMethod]
-    // public void FindCircumfrance_ResturnCircumferenceOfCircle_CircumfranceInt()
-    // {
-    //   // arrange
-    //   int radius = 3;
-    //   Circle newCircle = new Circle(radius);
-    //   // act
-    //   int result = newCircle.GetCircumference();
-    //   // assert
-    //   Assert.AreEqual(result, 6);
-    // }
+    [TestMethod]
+    public void FindCircumference_ReturnCircumferenceOfCircle_CircumferenceFloat()
+    {
+      // arrange
+      int radius = 3;
+      Circle newCircle = new Circle(radius);
+      // act
+      float result = newCircle.GetCircumference();
+      // assert
+      Assert.AreEqual(result, 18.85);
+    }
   }
 }
