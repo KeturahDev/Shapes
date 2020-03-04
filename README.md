@@ -18,8 +18,9 @@ This project is being created with the intention of practing object-in-object fu
 | Create functionality to find diameter | (diameter method) | *finds diameter* |
 | Create functionality to find circumfrance | (circumfrance method) | *finds circumfrance* |
 | Create sphere object based off circle object | create instance of sphere | *sphere exists* |
-| Create functionality to find sphere's volume | (volume method) | *finds volume* |
+| Sphere holds radius from circle | create instance of sphere | *sphere with radius from circle exists* |
 | Create functionality to find sphere's surface area | (surface-area method) | *finds surface area of sphere* |
+| Create functionality to find sphere's volume | (volume method) | *finds volume* |
 
 
 
