@@ -19,5 +19,9 @@ namespace Shapes.Models
       // Console.WriteLine($"SA:{surfaceArea}");
       return surfaceArea;
     }
+    public double FindVolume()
+    {
+      return 0;
+    }
   }
 }

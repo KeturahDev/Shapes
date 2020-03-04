@@ -39,5 +39,16 @@ namespace Shapes.Tests
       // assert
       Assert.AreEqual(314, SurfaceArea);
     }
+    [TestMethod]
+    public void FindVolume_FindVolume_Double()
+    {
+      // arrange
+      Circle newCircle = new Circle(5);
+      Sphere newSphere = new Sphere(newCircle);
+      // act
+      double Volume = newSphere.FindVolume();
+      // assert
+      Assert.AreEqual(523.6, Volume);
+    }
   }
 }
