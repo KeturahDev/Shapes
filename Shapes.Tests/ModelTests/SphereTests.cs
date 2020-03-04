@@ -10,7 +10,8 @@ namespace Shapes.Tests
     public void SphereConstructor_CreateNewInstanceOfSphere_SphereType()
     {
       // arrange
-      Sphere newSphere = new Sphere();
+      Circle newCircle = new Circle(5);
+      Sphere newSphere = new Sphere(newCircle);
       // act
       Sphere result = newSphere;
       // assert
@@ -23,7 +24,7 @@ namespace Shapes.Tests
       Circle newCircle = new Circle(5);
       Sphere newSphere = new Sphere(newCircle);
       // act
-      int result = Sphere.Radius;
+      int result = newSphere.Radius;
       // assert
       Assert.AreEqual(5, result);
     }
