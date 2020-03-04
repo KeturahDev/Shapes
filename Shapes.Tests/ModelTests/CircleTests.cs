@@ -45,10 +45,12 @@ namespace Shapes.Tests
       // arrange
       int radius = 3;
       Circle newCircle = new Circle(radius);
+      newCircle.SetDiameter();
+
       // act
-      float result = newCircle.GetCircumference();
+      double result = newCircle.GetCircumference();
       // assert
-      Assert.AreEqual(result, 18.85);
+      Assert.AreEqual(18.84, result);
     }
   }
 }
