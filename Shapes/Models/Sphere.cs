@@ -1,3 +1,4 @@
+using System;
 namespace Shapes.Models
 {
   public class Sphere
@@ -10,7 +11,13 @@ namespace Shapes.Models
     }
     public double GetSurfaceArea()
     {
-      return 0;
+      int radiusSquared = Radius * Radius;
+      // Console.WriteLine($"rSquared:{radiusSquared}");
+      int times4 = radiusSquared * 4;
+      // Console.WriteLine($"times4:{times4}");
+      double surfaceArea = times4 * 3.14;
+      // Console.WriteLine($"SA:{surfaceArea}");
+      return surfaceArea;
     }
   }
 }
