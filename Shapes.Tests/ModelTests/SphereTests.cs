@@ -28,5 +28,16 @@ namespace Shapes.Tests
       // assert
       Assert.AreEqual(5, result);
     }
+    [TestMethod]
+    public void GetSurfaceArea_ReturnSurfaceArea_Double() //is it double?
+    {
+      // arrange
+      Circle newCircle = new Circle(5);
+      Sphere newSphere = new Sphere(newCircle);
+      //act
+      double SurfaceArea = newSphere.GetSurfaceArea();
+      // assert
+      Assert.AreEqual(314, SurfaceArea);
+    }
   }
 }

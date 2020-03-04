@@ -8,5 +8,9 @@ namespace Shapes.Models
     {
       Radius = circle.Radius;
     }
+    public double GetSurfaceArea()
+    {
+      return 0;
+    }
   }
 }
